@@ -154,6 +154,9 @@ footer p
 
 @media (max-width:475px)
 {
+        *{
+        overflow-x: hidden;
+    }
     .slide-item p {
         color: white;
         text-align: right;
