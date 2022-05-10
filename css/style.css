@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Tajawal:wght@400;700;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    overflow-x: hidden;
+}
+/* navbar */
+.navbar
+{
+    box-shadow: 1px 2px 5px #ebebeb;
+}
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgb(248 0 0 / 50%); */
+    font-weight: 700;
+}
+
+/* slide */
+
+.sect-slide
+{
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/back.PNG");
+    padding: 1px;
+}
+
+.slide-item h2
+{
+    padding-top: 100px;
+    color: white;
+    text-align: right;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.slide-item p
+{
+    color: white;
+    text-align: right;
+    font-size: 20px;
+}
+
+
+/* news */
+
+.news
+{
+    margin-top: 40px;
+}
+.news h2 
+{
+    color: rgb(255,167,38);
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+/* image gallery */
+.image-gallery
+{
+    margin-top: 40px;
+    background-color: rgb(131, 131, 131);
+}
+.image-gallery h2 
+{
+    color: rgb(255,167,38);
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+/* activites */
+
+.activites
+{
+    margin-top: 40px;
+}
+.activites h2 
+{
+    color: rgb(255,167,38);
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* contact */
+.contact
+{
+    margin-top: 40px;
+}
+.contact h2 
+{
+    color: rgb(255,167,38);
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.icons
+{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.icons a
+{
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+    font-size: 25px;
+    text-decoration: none;
+}
+.icons a i 
+{
+    color: black;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+/* FOOTER */
+footer
+{
+    margin-top: 50px;
+    height: 50px;
+    background-color: black;
+}
+footer p
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* MEDIA */
+@media (max-width: 769px)
+{
+
+}
+
+@media (max-width:475px)
+{
+    .slide-item p {
+        color: white;
+        text-align: right;
+        font-size: 15px;
+    }
+   .activites h2 {
+    color: rgb(255,167,38);
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 800;
+}
+}
+
+/* @media (max-width: 376px)  
+{
+
+
+
+} */
